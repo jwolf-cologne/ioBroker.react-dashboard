@@ -1,0 +1,77 @@
+{
+	"common": {
+		"name": "react-dashboard",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"titleLang": {
+			"en": "react-dashboard",
+			"de": "React-Dashboard",
+			"ru": "панель управления реакцией",
+			"pt": "painel de reação",
+			"nl": "react-dashboard",
+			"fr": "tableau de bord de réaction",
+			"it": "reagire-dashboard",
+			"es": "reaccionar-tablero",
+			"pl": "panel reagowania",
+			"zh-cn": "反应仪表板"
+		},
+		"desc": {
+			"en": "react-dashboard",
+			"de": "React-Dashboard",
+			"ru": "панель управления реакцией",
+			"pt": "painel de reação",
+			"nl": "react-dashboard",
+			"fr": "tableau de bord de réaction",
+			"it": "reagire-dashboard",
+			"es": "reaccionar-tablero",
+			"pl": "panel reagowania",
+			"zh-cn": "反应仪表板"
+		},
+		"authors": [
+			"Jens <jens.wolf2@gmail.com>"
+		],
+		"keywords": [
+			"ioBroker",
+			"template",
+			"Smart Home",
+			"home automation"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"icon": "react-dashboard.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/jwolf-cologne/ioBroker.react-dashboard/master/admin/react-dashboard.png",
+		"readme": "https://github.com/jwolf-cologne/ioBroker.react-dashboard/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "visualization",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "poll",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
