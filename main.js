@@ -70,9 +70,6 @@ class ReactDashboard extends utils.Adapter {
 		// the variable testVariable is set to true as command (ack=false)
 		await this.setStateAsync('testVariable', true);
 
-
-
-		
 		// same thing, but the value is flagged "ack"
 		// ack should be always set to true if the value is received from or acknowledged from the target system
 		await this.setStateAsync('testVariable', { val: true, ack: true });
